@@ -7,16 +7,16 @@
     <style>
         header {
             background-color: darkred;
-            color: azure;
+            color: rgba(251, 255, 255, 0.703);
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
-            border: 5px solid #7510af;
+            border: 5px solid #000000;
             padding: 16px;
         }
         main {
            background-color: azure;
-            color: darkred;
+            color: rgba(237, 12, 12, 0.68);
             text-align: center;
             margin: 0 auto;
    
@@ -33,12 +33,12 @@
         <p>Esse site foi feito na disciplina de educação digital</p>
     </header>
     <main>
-        <img src="computador.png" alt="icone de computador">
+        <img src="gato fezendo sinal de paz" alt="icone de um gato">
        
         <div>
             <h2>Meu primeiro post</h2>
-            <p>editado por Mateus</p>
-            <p>Boas-vindas ao meu blog! Aqui vou compartilhar sobre tecnologia e computação</p>
+            <p>editado por lays</p>
+            <p>Boas-vindas ao meu blog! Aqui vou compartilhar sobre mim/p>
             <button>❤️ <span>0</span></button>
         </div>
            
@@ -47,6 +47,12 @@
 
 <script>
     const botao = document.querySelector("button");
+      bota.addEventListener(click,botaoClicado)
+      funclion botaoClicado () {
+        console.log(fui clicado)
+        let text = botao.querySelector(span);
+        text.textcontent++;
+      }
 </script>
 
 </html>
